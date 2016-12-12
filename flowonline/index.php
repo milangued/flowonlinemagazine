@@ -1,4 +1,4 @@
-BONJOUR<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 	<head>
         <?php include_once('includes/header.php'); ?>
