@@ -1,0 +1,123 @@
+@media screen and (min-width: 640px)
+{
+
+    main{
+        font-size: 2vw;
+    }
+    
+    header{
+        height: 10vw;
+    }
+
+    header img{
+        width: 15vw;
+        margin-top: -2vw;
+    }
+  
+    header #nav{
+        margin-top: -4.5vw;
+        height: 18vw;
+    }
+
+    header #menu{
+        display: block;
+        
+    }
+    
+    #menu img{
+        
+		z-index: 99999999999999;
+		position:relative;
+		
+        float: right;
+		top:-3vh;
+		left:0;
+    }
+	
+			#logoFlow
+		{
+			margin-left:4vw;
+			margin: 1vw 0 0 8vw;
+			
+		}
+	
+	
+	#menuImgPhone{
+        
+		width:8vw;
+		
+    }
+    
+    
+        #left #articleDuMois{
+
+        }
+	
+		#left {
+			margin-top: 0px;
+        }
+
+        #left #articleDuMois h2{
+            color: #161616;
+            font-family: Coolvetica;
+            font-size: 8vw;
+        }
+    
+        #left #articleDuMois .art{
+            height: 60vh;
+        }
+    
+        #left #articleDuMois .art img{
+            margin-top: -50vw;
+        }
+    
+        #left #articleDuMois .art figcaption{
+            font-size: 3vw;
+            margin: 43vh 0 0 4vw;
+            border-radius: 1vw;
+        }
+    
+    
+        #right #dernierement{
+
+        }
+
+        #right #dernierement h2{
+            font-size: 6vw;
+            color: #f49da7;
+        }
+    
+        #right #dernierement .art{
+            height: 40vh;
+        }
+
+        #right #dernierement .art img{
+            margin-top: -50vw;
+        }
+    
+        #right #dernierement .art figcaption{
+            font-size: 3vw;
+            margin: 15vw 0 0 4vw;
+            border-radius: 1vw;    
+        }
+    
+    textarea{
+        font-size: 2vw;
+    }
+
+    input[type=radio], input[type=checkbox]{
+        width:3vw;
+    }
+
+    input[type="text"], input[type="password"], input[type="email"], input[type="search"], input[type="number"], select{
+
+        font-size: 2vw;
+    }
+
+    input[type="submit"], input[type="button"]{
+        padding: 1vw;
+        font-size: 2vw;
+        margin-left: 80%;
+    }
+ 
+}

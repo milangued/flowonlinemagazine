@@ -1,0 +1,226 @@
+ @media screen and (min-width: 960px)
+{ 
+
+    main{
+        font-size: 1.2vw;
+		
+    }
+        
+    header{
+        height: 4vw;
+        width: 100vw;
+        z-index: 100;
+        position: fixed;
+    }
+
+    header img{
+        width: 8vw;
+        margin-top: -.8vw;
+        margin-left: 2vw;
+    }
+    
+
+    header #menu{
+        display: none;
+    }
+    
+    header #nav{
+        
+        height: 4vw;
+		
+    }
+	
+	#search
+	{
+		display:block;
+	}
+    
+    header ul{
+        display: inline-block;
+        margin-left: 20vw;
+        word-spacing: 2vw;
+    }
+    
+    header ul li{
+        display: inline-block;
+        list-style-type: none;
+        text-transform: uppercase;
+    }
+    
+    header ul li a{
+        color: white;
+    }
+    
+    header input{
+        display: inline-block;
+        position: absolute;
+        left: 68vw;
+        top: 0.6vw;
+    }
+    
+    header #searchIcon{
+        display: inline-block;
+        position: absolute;
+        left: 80vw;
+		cursor:pointer;
+        top: 2.1vw;
+        width: 1.5vw;
+    }
+    
+    header #account{
+        display: inline-block;
+    }
+    
+    header #account img{
+        width: 1.7vw;
+        position: absolute;
+        right: 2vw;
+        top: 1.5vw;
+		cursor: pointer;
+    }
+	
+	
+    
+    #menu img{
+        margin: 2vw 0 0 8vw;
+        width: 40%;
+    }
+	
+		#logoFlow
+		{
+			margin-left:4vw;
+			margin: -1.5vw 0 0 4vw;
+			
+		}
+    
+    #left{
+        float: left;
+        width: 50%;
+        padding: 5vw 0 0 2vw;
+    }
+    
+        #left #articleDuMois{
+
+        }
+
+        #left #articleDuMois h2{
+            font-size: 6vw;
+        }
+    
+        #left #articleDuMois .art{
+            width: 100%;
+            height: 70vh;
+			z-index: 0;
+        }
+    
+        #left #articleDuMois .art img{
+            margin-top: 0;
+        }
+    
+        #left #articleDuMois .art figcaption{
+            font-size: 2vw;
+            padding: 1vw;
+            margin: 55vh 0 0 2vw;
+            border-radius: .5vw;
+            transition: .2s ease-in-out;
+        }
+    
+        #left #articleDuMois .art figcaption:hover{
+            background-color: #ffffff;
+            color: #f36e7a;
+        }
+    
+    #right{
+        float: right;
+        width: 50%;
+        padding: 11.5vw 2vw;
+    }
+	
+	 #menuAccount
+	{
+		display: block;
+		position: absolute;
+		background-color: #f36e7a;
+		width:30vw;
+		height:15vw;
+		display:flex;
+		flex-direction: column;
+		right: -40vw;
+		transition: 0.25s;
+		top:4vw;
+		z-index: 999999999;
+	}
+    
+
+        #right #dernierement h2{
+            font-size: 3vw;
+            color: #f49da7;
+        }
+    
+        #right #dernierement .art{
+            height: 31.1vh;
+            width: 100%;
+            margin-bottom: 1vw;
+			z-index: 0;
+        }
+
+        #right #dernierement .art img{
+            margin-top: -20vw;
+        }
+    
+        #right #dernierement .art figcaption{
+            font-size: 1.2vw;
+            padding: 1vw;
+            margin: 21vh 0 0 2vw;
+            border-radius: .5vw; 
+            transition: .2s ease-in-out;
+			cursor: pointer;
+        }
+    
+        #right #dernierement .art figcaption:hover{
+            background-color: #ffffff;
+            color: #f36e7a;
+        }
+	
+	
+    textarea{
+        padding: 0.4vw;
+        font-size: 1vw;
+        min-width: 24.5vw;
+        max-width: 24.5vw;
+        min-height: 9vw;
+        max-height: 15vw;
+    }
+
+    input[type=radio], input[type=checkbox]{
+        width: 2vw;
+    }
+
+    input[type="text"], input[type="password"], input[type="email"], input[type="search"], input[type="number"], select{
+        font-size: 1vw;
+        padding-left: 1vw;
+        padding-right: 1vw;
+        width: 12vw;
+    }
+
+    input[type="submit"]{
+        padding: 0.7vw;
+        font-size: 1vw;
+        color: #fff;
+        background-color: #161616;
+    }
+    
+    input[type="submit"]:hover{
+        color: #161616;
+        background-color: #fff;
+    }
+    
+	#navContainer
+	{
+		display: none;
+	}
+	
+
+  
+}
+    

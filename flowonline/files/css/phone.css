@@ -1,0 +1,255 @@
+@media screen and (min-width: 0px)
+{    
+    body{
+        background-color: #ffffff;
+		overflow-x: hidden;
+    }
+    
+    a{
+        text-decoration: none;
+    }
+
+    main{
+        font-family: Titillium-Regular, Helvetica, Arial, sans-serif;
+        font-size: 3vw;
+        color : #161616;
+    }
+    
+    header{
+        background-color: #f36e7a;
+        
+        box-sizing: border-box;
+    }
+    
+    header #nav{
+        margin-top: -10.5vw;
+        height:0px;
+        
+    }
+    
+    header h1{
+        text-indent: -5000px;
+		position: absolute;
+    }
+    
+    header img{
+        width: 28vw;
+		
+	}
+		
+		#logoFlow
+		{
+			margin-left:4vw;
+			padding: 2vw;
+		}
+    #menuAccount
+	{
+		display: none;
+	}
+    
+    header ul, #search, #searchIcon {
+        display: none;
+    }
+	
+	
+    
+    header #menu{
+        display: block;
+        margin-top: -.5vw;
+        
+    }
+    
+    header #account{
+        display: none;
+    }
+    
+    #menuImgPhone{
+        
+		z-index: 99999999999999;
+		width:12vw;
+        float: right;
+		position: relative;
+		top: -2vw;
+		left: 0vw;
+		transition: 0.5s;
+		transform: rotate(0deg)
+    }
+
+    
+    #left{
+        padding: 4vw;
+        box-sizing: border-box;
+		margin-top:5vh;
+    }
+    
+        #left #articleDuMois{
+
+        }
+
+        #left #articleDuMois h2{
+            color: #161616;
+            font-family: Coolvetica;
+            font-size: 13vw;
+        }
+    
+        #left #articleDuMois .art{
+            width: 95vw;
+            height: 40vh;
+            overflow: hidden;
+			z-index: -1000;
+			position:relative;
+        }
+
+        #left #articleDuMois .art img{
+            width: 96%;
+			z-index: -1000;
+			position:relative;
+        }
+    
+        #left #articleDuMois .art figcaption{
+            font-family: Titillium-Thin;
+            font-size: 5vw;
+            position: absolute;
+            margin: 30vh 0 0 4vw;
+            color: white;
+            background-color: #f36e7a;
+            padding: 2vw;
+            border-radius: 2vw;
+			
+        }
+
+    
+    #right{
+        padding: 4vw;
+        box-sizing: border-box;
+    }
+    
+        #right #dernierement{
+
+        }
+
+        #right #dernierement h2{
+            font-family: Coolvetica;
+            font-size: 10vw;
+            color: #f49da7;
+        }
+    
+        #right #dernierement .art{
+            width: 95vw;
+            height: 20vh;
+            overflow: hidden;
+            margin-bottom: 4vw;
+			z-index: -1000;
+			position:relative;
+        }
+
+        #right #dernierement .art img{
+            width: 96%;
+            margin-top: -50vw;
+        }
+    
+        #right #dernierement .art figcaption{
+            font-family: Titillium-Thin;
+            font-size: 5vw;
+            position: absolute;
+            margin: 11vh 0 0 4vw;
+            color: #ffffff;
+            background-color: #f36e7a;
+            padding: 2vw;
+            border-radius: 2vw;    
+        }
+    
+ 
+    textarea{
+        text-decoration: none;
+        padding: 0.4vw;
+        font-family: Titillium-Regular, Helvetica, Arial, sans-serif;
+        font-size: 3vw;
+        color: #161616;
+        background-color: #fff;
+        border: none;
+        border-radius: 0.4vw;
+        min-width: 30vw;
+        max-width: 44.4vw;
+        min-height: 16vw;
+        max-height: 30vw;
+        margin: 0.4vw;
+    }
+
+    option, input, input[type="file"], textarea{
+        font-family: Titillium-Regular, Helvetica, Arial, sans-serif;    
+    }
+    
+    input[type=radio], input[type=checkbox]{
+        width:3vw;
+    }
+
+    input[type="text"], input[type="password"], input[type="email"], input[type="search"], input[type="number"], select{
+        text-decoration: none;
+        padding: 0.4vw;
+        font-family: Titillium-Regular, Helvetica, Arial, sans-serif;
+        font-size:20%;
+
+        color: #161616;
+        background-color: #fff;
+        border-radius: 0.4vw;
+        border: none;
+        margin: 0.4vw;
+    }
+
+    input[type="submit"]{
+        text-decoration: none;
+        
+        font-family: Titillium-Regular, Helvetica, Arial, sans-serif;
+        font-size: 3vw;
+        color: #161616;
+        background-color: #fff;
+        border: none;
+        border-radius: 0.4vw;
+        margin-left: 77%;
+        margin-top: 1vw;
+    } 
+	
+				/*SCROLLBAR*/
+	/* Let's get this party started */
+	::-webkit-scrollbar {
+		width: 6px;
+	}
+
+	/* Track */
+	::-webkit-scrollbar-track {
+		
+		-webkit-border-radius: 10px;
+		border-radius: 10px;
+	}
+
+	/* Handle */
+	::-webkit-scrollbar-thumb {
+		-webkit-border-radius: 20px;
+		border-radius: 10px;
+		background: #f36e7a; 
+		
+	}
+	::-webkit-scrollbar-thumb:window-inactive {
+		background: #f36e7a; 
+	}
+	
+	#navContainer
+	{
+		
+		background:#f36e7a;
+		position: fixed;
+		width:100%;
+		height: 100%;
+		text-align: center;
+		display: flex;
+		flex-direction: column;
+	}
+	
+	
+	
+
+	
+
+
+}
