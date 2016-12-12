@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+BONJOUR<!DOCTYPE html>
 <html>
 	<head>
         <?php include_once('includes/header.php'); ?>
@@ -16,8 +16,46 @@
         <link rel="stylesheet" href="<?php echo base_url();?>files/css/reset.css" type="text/css" />
 		<link rel="stylesheet" href="<?php echo base_url();?>files/css/phone.css" type="text/css" />
 		<link rel="stylesheet" href="<?php echo base_url();?>files/css/tab.css" type="text/css" />
+		<link rel="stylesheet" href="<?php echo base_url();?>files/css/screen.css" type="text/css" />
+        <link rel="stylesheet" href="<?php echo base_url();?>files/css/fontface.css" type="text/css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 		
-		menuAccount"></div>
+		
+		<!-- On charge le script -->
+		<script src="files/js/nav.js"></script>
+		
+		
+		
+		<!-- On affiche un Favicon -->
+        <link rel="icon" type="image/png" href="<?php echo base_url() ; ?>files/img/icons/favicon.png" />
+
+
+	</head>
+    
+    <body>
+       
+        <main> 
+			
+			<div id="navContainer"></div>
+            
+            <header id="header">
+                
+                <h1>FlowOnline</h1>
+                <img src="<?php echo base_url();?>files/img/design/logo.svg" id="logoFlow" alt="Logo Flow Online"/>
+                
+                <div id="nav">
+                    <ul>
+                        <li><a href="#">Nouveautés</a></li>
+                        <li><a href="#">S'abonner</a></li>                
+                    </ul>
+
+                    <input id="search" type="search" placeholder="rechercher"/>
+					
+                    <img id="searchIcon" src="<?php echo base_url();?>files/img/icons/search.svg" alt="Rechercher"/>
+
+                    <div id="account">
+                        <img id="imgAccount" src="<?php echo base_url();?>files/img/icons/account.svg" alt="Mon compte"/>
+						<div id="menuAccount"></div>
                     </div>
 
                     <div id="menu">
